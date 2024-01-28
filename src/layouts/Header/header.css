@@ -1,0 +1,17 @@
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+li {
+    align-self: center;
+}
+
+.grid-container {
+    /* list-style: 'none';
+    display: 'grid'; */
+    /* grid-template-columns: auto auto auto; */
+    gap: 50px;
+    /* margin: 0;
+    padding: 0 */
+}

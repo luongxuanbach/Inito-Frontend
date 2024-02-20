@@ -1,5 +1,10 @@
 const Home = () => {
-    return <h1>Home</h1>;
-  };
-  
-  export default Home;
+  return (
+    <div class="container">
+      <h1>My First Bootstrap Page</h1>
+      <p>This is some text.</p>
+    </div>
+  );
+};
+
+export default Home;

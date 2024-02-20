@@ -1,0 +1,51 @@
+.banner {
+  height: 936px;
+  width: 100%;
+  background-color: #f7f7fe;
+}
+
+.star-img {
+  position: absolute;
+  right: 0;
+
+}
+
+.frame-img {
+  position: absolute;
+  right: 0;
+
+}
+
+.title {
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #112D35;
+  ;
+}
+
+.sub-title {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.btn-learn-more {
+  width: 167px;
+  height: 51px;
+  background-color: #1f94aa;
+  color: white;
+  border: none;
+  border-radius: 50px;
+}
+
+.box-content-banner {
+    width: 493px;
+    margin-left: 100px;
+    margin-top: 348px;
+}
+

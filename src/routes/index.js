@@ -1,15 +1,15 @@
 // AppRouter.js
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Contacts from "../pages/Contacts";
 import Stories from "../pages/Stories";
 import Blog from "../pages/Blog";
-import Layout from "../pages/Layout";
+import Layout from "../components/Layout/Layout";
 import FAQ from "../pages/FAQ";
 
-const AppRouter = () => {
+const Router = () => {
   return (
     <>
       <Layout>
@@ -29,4 +29,4 @@ const AppRouter = () => {
   );
 };
 
-export default AppRouter;
+export default Router;
